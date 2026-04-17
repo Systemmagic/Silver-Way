@@ -1,4 +1,4 @@
-# elderly-gis-platform
+# Silver Way
 
 适老化生活圈 WebGIS 平台示例项目，后端使用 Flask + PostGIS，前端使用 Vue3 + OpenLayers + TypeScript。
 
