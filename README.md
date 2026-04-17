@@ -32,9 +32,9 @@ npm run dev
 ## 关键配置
 
 1. 修改 `backend/config.py` 中数据库连接参数（尤其 `password`）。
-2. 在 `frontend/src/components/MapContainer.vue` 中替换 `tiandituKey`。
-3. 确保 PostGIS 存在 `public_facilities` 表，且字段为 `id`, `name`, `type`, `geom`。
-4. 确保 SRID `4490` 可用；若缺失请在数据库中补充定义。
+2. 在 `frontend/src/components/MapContainer.vue` 中替换 `tiandituKey`。若无天地图密钥，程序会自动加载OSM底图
+3. 确保 PostGIS 存在 `public_facilities` 表。
+4. 确保 SRID `4490` 可用。
 
 ## 接口概览
 
