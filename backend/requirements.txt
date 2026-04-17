@@ -1,0 +1,6 @@
+Flask==2.3.0
+Flask-CORS==4.0.0
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.23
+GeoAlchemy2==0.14.0
+geojson==3.1.0
